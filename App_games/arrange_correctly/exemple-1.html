@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exemple 1</title>
+        <meta charset="iso-8859-1" />
+        <link rel="stylesheet" href="style/default.css" />
+        <script src="script/default.js"></script>
+    </head>
+
+    <body onload="onReady()">
+        <div id="bg">
+            <!-- <img id="wallpaper" src="images/background.png" /> -->
+        </div>
+        <div id="container">
+            <img  id="tab" src="images/container.png" />
+        </div>
+        <div id="a" class="div2" draggable="true" ondragstart="drag(event)">ता </div>
+        <div id="b" class="div2" draggable="true" ondragstart="drag(event)">क </div>
+        <div id="d" class="div2" draggable="true" ondragstart="drag(event)">व </div>
+        <div id="e" class="div2" draggable="true" ondragstart="drag(event)">र </div>
+        <!-- <div id="f" class="div2" draggable="true" ondragstart="drag(event)">f</div> -->
+        <div id="lien"><img id="btn" src="images/button.png" onclick="verifier()" /></div>
+        <div id="d1" class="cage" ondrop="drop(event)" ondragover="allowdrag(event)"></div>
+        <div id="d2" class="cage" ondrop="drop(event)" ondragover="allowdrag(event)"></div>
+        <div id="d3" class="cage" ></div>
+        <div id="d4" class="cage" ondrop="drop(event)" ondragover="allowdrag(event)"></div>
+        <div id="d5" class="cage" ondrop="drop(event)" ondragover="allowdrag(event)"></div>
+        <!-- <div id="d6" class="cage" ondrop="drop(event)" ondragover="allowdrag(event)"></div> -->
+        <span id="msg"></span>
+    </body>
+</html>

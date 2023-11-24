@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .container {
+    /* background-color: #ac2090; */
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .draggable {
+    padding: 1rem;
+    background-color: rgb(76, 228, 20);
+    border: 1px solid black;
+    cursor: move;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .draggable.dragging {
+    opacity: .5;
+  }

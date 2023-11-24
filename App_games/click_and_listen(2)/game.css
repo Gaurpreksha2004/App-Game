@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(images/bag.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(7px);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container{
+  padding: 10rem;
+}
+
+.container h1{
+  font-size: 3rem;
+  color: ;
+}
+
+.btn {
+  background-color: rgb(14, 130, 219);
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 2rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.8;
+  background-color: #cf4646;
+  color: rgb(241, 243, 245);
+}
+.btn:focus {
+    outline: none;
+}
